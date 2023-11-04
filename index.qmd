@@ -3,7 +3,7 @@ title: "Welcome to My Analytics Lab"
 sidebar: false 
 ---
 
-Hello! My name is Alperen Gürkan.
+Hello! My name is Alperen Gürka
 
 This is my personal webpage.
 
