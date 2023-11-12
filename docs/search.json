@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Welcome to My Analytics Lab",
     "section": "",
-    "text": "Hello! My name is Alperen Gurkan. This is my personal webpage.\nPlease stay tuned to follow my works on data analytics, blog posts, and more.\n\n\n\n\n Back to top"
+    "text": "Hello! My name is Alperen Gürkan. This is my personal webpage.\nPlease stay tuned to follow my works on data analytics, blog posts, and more.\n\n\n\n\n Back to top"
   },
   {
     "objectID": "assignments/assignment-2.html",
@@ -32,7 +32,7 @@
     "href": "about.html#employements",
     "title": "About Me",
     "section": "Employements",
-    "text": "Employements\n\nFirm xxx, position xx, year xxx"
+    "text": "Employements"
   },
   {
     "objectID": "about.html#internships",
@@ -46,7 +46,7 @@
     "href": "assignments/assignment-1.html",
     "title": "Assignment 1",
     "section": "",
-    "text": "1 + 1\n\n[1] 2\n\n\nMy first assignment has two parts."
+    "text": "x&lt;-1 + 1\nx\n\n[1] 2\n\n\nMy first assignment has two parts."
   },
   {
     "objectID": "assignments.html",

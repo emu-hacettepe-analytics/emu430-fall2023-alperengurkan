@@ -1,6 +1,6 @@
 ---
 title: "Our Course Project"
-sidebar: false 
+sidebar: "false "
 ---
 
 I'm honored to be a member of the \[group name\] project team.
