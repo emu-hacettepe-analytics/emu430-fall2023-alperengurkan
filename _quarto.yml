@@ -47,7 +47,8 @@ format:
     toc-location: left
     theme: 
       light: lux
-      dark: lux
+      dark: slate
+
     css: styles.css
 
 
