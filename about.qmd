@@ -13,19 +13,23 @@ sidebar: false
 
 1.  Firm xxx, position xx, year xxx
 
-2.  Firm yyy, position yyy, year yyy
 
 ## Internships
 
-1.  Firm Oyak-Renault Fabrikaları A.Ş. , position xx, year 2023
+1.  Firm Oyak-Renault Fabrikaları A.Ş. , Summer Intern, year 2023
 
 2.  Firm bbb, position yyy, year yyy
 
 # Projects
 
-# Competencies
+# Skills     |-------| Level
+  Python     |-------| Intermediate
+  Gurobi     |-------| Intermediate
+  SolidWorks |-------| Intermediate  
+  R          |-------| Beginner
+  Quarto     |-------| Beginner
+  Git        |-------| Beginner
 
 R, Quarto, Git, Python, Opl Cplex, Gurobi, SolidWorks
 
 # Hobbies
-None
