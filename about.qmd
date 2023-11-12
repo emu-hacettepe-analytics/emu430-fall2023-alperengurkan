@@ -11,7 +11,7 @@ sidebar: false
 
 ## Employements
 
-1.  Firm xxx, position xx, year xxx
+1.  \--
 
 ## Internships
 

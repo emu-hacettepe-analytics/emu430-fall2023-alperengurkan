@@ -3,7 +3,7 @@ title: "Welcome to My Analytics Lab"
 sidebar: false 
 ---
 
-Hello! My name is Alperen Gğrkan. This is my personal webpage.
+Hello! My name is Alperen Gürkan. This is my personal webpage.
 
 Please stay tuned to follow my works on data analytics, blog posts, and more.
 
