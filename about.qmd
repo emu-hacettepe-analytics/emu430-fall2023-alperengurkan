@@ -13,7 +13,6 @@ sidebar: false
 
 1.  Firm xxx, position xx, year xxx
 
-
 ## Internships
 
 1.  Firm Oyak-Renault Fabrikaları A.Ş. , Summer Intern, year 2023
@@ -22,14 +21,20 @@ sidebar: false
 
 # Projects
 
-# Skills     |-------| Level
-  Python     |-------| Intermediate
-  Gurobi     |-------| Intermediate
-  SolidWorks |-------| Intermediate  
-  R          |-------| Beginner
-  Quarto     |-------| Beginner
-  Git        |-------| Beginner
+# Skills
 
-R, Quarto, Git, Python, Opl Cplex, Gurobi, SolidWorks
+Python.................. Intermediate
+
+Gurobi.................. Intermediate
+
+R ............................Beginner
+
+Quarto ..................Beginner
+
+Git...........................Beginner
+
+SolidWorks............Advance
+
+MS Office...............Intermediate
 
 # Hobbies
