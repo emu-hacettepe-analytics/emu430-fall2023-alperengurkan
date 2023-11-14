@@ -9,6 +9,11 @@ x<-1 + 1
 x
 ```
 
+```{python}
+x=1 + 1
+print(x)
+```
+
 My first assignment has two parts.
 
 ## (a)
