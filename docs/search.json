@@ -46,7 +46,14 @@
     "href": "assignments/assignment-1.html",
     "title": "Assignment 1",
     "section": "",
-    "text": "x&lt;-1 + 1\nx\n\n[1] 2\n\n\n\nx=1 + 1\nprint(x)\n\n2\n\n\nMy first assignment has two parts."
+    "text": "x&lt;-1 + 1\nx\n\n[1] 2\n\n\n\nx=1 + 1\nprint(x)\n\n2\n\n\nMy first assignment has two parts.\n\n\n\n\n\n\n\nIn the R language our elements are starting from 1\n\nstrikers &lt;- c(\"Mauro Icardi\", \"Didier Drogba\", \"Wesley Sneijder\")\n\nfirst_striker &lt;- strikers[1]\nprint(first_striker)\n\n[1] \"Mauro Icardi\"\n\n\nIn the Python our first element starting from 0\n\nstrikers = [\"Mauro Icardi\", \"Didier Drogba\", \"Wesley Sneijder\"]\nfirst_striker = strikers[0]\nprint(first_striker)\n\nMauro Icardi\n\n\n\n\n\nIn R, the &lt;- symbol is used for variable assignment.\n\nstrikers &lt;- c(\"Mauro Icardi\", \"Didier Drogba\", \"Wesley Sneijder\")\n\nIn Python, the = symbol is used for variable assignment.\n\nstrikers = [\"Mauro Icardi\", \"Didier Drogba\", \"Wesley Sneijder\"]\n\n\n\n\nIn R, the c() function is used to create a vector.\n\nstrikers &lt;- c(\"Mauro Icardi\", \"Didier Drogba\", \"Wesley Sneijder\")\n\nIn Python, square brackets [] are used to create a list.\n\nstrikers = [\"Mauro Icardi\", \"Didier Drogba\", \"Wesley Sneijder\"]"
+  },
+  {
+    "objectID": "assignments/assignment-1.html#section-b",
+    "href": "assignments/assignment-1.html#section-b",
+    "title": "Assignment 1",
+    "section": "",
+    "text": "In the R language our elements are starting from 1\n\nstrikers &lt;- c(\"Mauro Icardi\", \"Didier Drogba\", \"Wesley Sneijder\")\n\nfirst_striker &lt;- strikers[1]\nprint(first_striker)\n\n[1] \"Mauro Icardi\"\n\n\nIn the Python our first element starting from 0\n\nstrikers = [\"Mauro Icardi\", \"Didier Drogba\", \"Wesley Sneijder\"]\nfirst_striker = strikers[0]\nprint(first_striker)\n\nMauro Icardi\n\n\n\n\n\nIn R, the &lt;- symbol is used for variable assignment.\n\nstrikers &lt;- c(\"Mauro Icardi\", \"Didier Drogba\", \"Wesley Sneijder\")\n\nIn Python, the = symbol is used for variable assignment.\n\nstrikers = [\"Mauro Icardi\", \"Didier Drogba\", \"Wesley Sneijder\"]\n\n\n\n\nIn R, the c() function is used to create a vector.\n\nstrikers &lt;- c(\"Mauro Icardi\", \"Didier Drogba\", \"Wesley Sneijder\")\n\nIn Python, square brackets [] are used to create a list.\n\nstrikers = [\"Mauro Icardi\", \"Didier Drogba\", \"Wesley Sneijder\"]"
   },
   {
     "objectID": "assignments.html",

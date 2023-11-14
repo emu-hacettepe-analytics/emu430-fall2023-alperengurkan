@@ -16,6 +16,58 @@ print(x)
 
 My first assignment has two parts.
 
-## (a)
+## Section A
 
-## (b)
+## Section B
+
+### 1
+
+In the R language our elements are starting from 1
+
+```{r}
+strikers <- c("Mauro Icardi", "Didier Drogba", "Wesley Sneijder")
+
+first_striker <- strikers[1]
+print(first_striker)
+```
+
+In the Python our first element starting from 0
+
+```{python}
+strikers = ["Mauro Icardi", "Didier Drogba", "Wesley Sneijder"]
+first_striker = strikers[0]
+print(first_striker)
+
+```
+
+### 2
+
+In R, the \<- symbol is used for variable assignment.
+
+```{r}
+strikers <- c("Mauro Icardi", "Didier Drogba", "Wesley Sneijder")
+```
+
+In Python, the = symbol is used for variable assignment.
+
+```{python}
+strikers = ["Mauro Icardi", "Didier Drogba", "Wesley Sneijder"]
+```
+
+### 3
+
+In R, the c() function is used to create a vector.
+
+```{r}
+strikers <- c("Mauro Icardi", "Didier Drogba", "Wesley Sneijder")
+
+```
+
+In Python, square brackets \[\] are used to create a list.
+
+```{python}
+strikers = ["Mauro Icardi", "Didier Drogba", "Wesley Sneijder"]
+
+```
+
+## (C)

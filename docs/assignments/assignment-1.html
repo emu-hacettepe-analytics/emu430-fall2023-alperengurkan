@@ -207,8 +207,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul>
   <li><a href="#assignment-1" id="toc-assignment-1" class="nav-link active" data-scroll-target="#assignment-1">Assignment 1</a>
   <ul class="collapse">
-  <li><a href="#a" id="toc-a" class="nav-link" data-scroll-target="#a">(a)</a></li>
-  <li><a href="#b" id="toc-b" class="nav-link" data-scroll-target="#b">(b)</a></li>
+  <li><a href="#section-a" id="toc-section-a" class="nav-link" data-scroll-target="#section-a">Section A</a></li>
+  <li><a href="#section-b" id="toc-section-b" class="nav-link" data-scroll-target="#section-b">Section B</a>
+  <ul class="collapse">
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">1</a></li>
+  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">2</a></li>
+  <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2">3</a></li>
+  </ul></li>
+  <li><a href="#c" id="toc-c" class="nav-link" data-scroll-target="#c">(C)</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -254,11 +260,58 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <p>My first assignment has two parts.</p>
-<section id="a" class="level2">
-<h2 class="anchored" data-anchor-id="a">(a)</h2>
+<section id="section-a" class="level2">
+<h2 class="anchored" data-anchor-id="section-a">Section A</h2>
 </section>
-<section id="b" class="level2">
-<h2 class="anchored" data-anchor-id="b">(b)</h2>
+<section id="section-b" class="level2">
+<h2 class="anchored" data-anchor-id="section-b">Section B</h2>
+<section id="section" class="level3">
+<h3 class="anchored" data-anchor-id="section">1</h3>
+<p>In the R language our elements are starting from 1</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>strikers <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Mauro Icardi"</span>, <span class="st">"Didier Drogba"</span>, <span class="st">"Wesley Sneijder"</span>)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>first_striker <span class="ot">&lt;-</span> strikers[<span class="dv">1</span>]</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(first_striker)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Mauro Icardi"</code></pre>
+</div>
+</div>
+<p>In the Python our first element starting from 0</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>strikers <span class="op">=</span> [<span class="st">"Mauro Icardi"</span>, <span class="st">"Didier Drogba"</span>, <span class="st">"Wesley Sneijder"</span>]</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>first_striker <span class="op">=</span> strikers[<span class="dv">0</span>]</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(first_striker)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Mauro Icardi</code></pre>
+</div>
+</div>
+</section>
+<section id="section-1" class="level3">
+<h3 class="anchored" data-anchor-id="section-1">2</h3>
+<p>In R, the &lt;- symbol is used for variable assignment.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>strikers <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Mauro Icardi"</span>, <span class="st">"Didier Drogba"</span>, <span class="st">"Wesley Sneijder"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>In Python, the = symbol is used for variable assignment.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>strikers <span class="op">=</span> [<span class="st">"Mauro Icardi"</span>, <span class="st">"Didier Drogba"</span>, <span class="st">"Wesley Sneijder"</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="section-2" class="level3">
+<h3 class="anchored" data-anchor-id="section-2">3</h3>
+<p>In R, the c() function is used to create a vector.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>strikers <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Mauro Icardi"</span>, <span class="st">"Didier Drogba"</span>, <span class="st">"Wesley Sneijder"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>In Python, square brackets [] are used to create a list.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>strikers <span class="op">=</span> [<span class="st">"Mauro Icardi"</span>, <span class="st">"Didier Drogba"</span>, <span class="st">"Wesley Sneijder"</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+</section>
+<section id="c" class="level2">
+<h2 class="anchored" data-anchor-id="c">(C)</h2>
 
 
 </section>
