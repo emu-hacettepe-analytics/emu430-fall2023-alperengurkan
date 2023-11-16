@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Alperen's Analytics Lab"
+  title: "Alperen's(Group icaRdi) Analytics Lab"
   navbar:
     search: true
     left:

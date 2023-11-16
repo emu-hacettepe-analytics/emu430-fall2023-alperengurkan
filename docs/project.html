@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Alperen’s Analytics Lab - Our Course Project</title>
+<title>Alperen’s(Group icaRdi) Analytics Lab - Our Course Project</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -74,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Alperen’s Analytics Lab</span>
+    <span class="navbar-title">Alperen’s(Group icaRdi) Analytics Lab</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -191,10 +225,38 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>I’m honored to be a member of the [group name] project team.</p>
-<p>Below, you’ll find a brief summary of our project. To access a detailed project description, please go to <a href="#0" class="uri">https://[your-project-url]</a>.</p>
+<p>I’m honored to be a member of the <strong>icaRdi</strong> project team.</p>
+<p><strong>Group Members Mert Canlı - Elif Ece Uygun - Alperen Gürkan - Bekir Gök</strong></p>
+<p>Below, you’ll find a brief summary of our project. To access a detailed project description, please go to <a href="#0" class="uri">https://emu-hacettepe-analytics.github.io/emu430-fall2023-mertcanli01/project.html</a>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"C:/Users/MONSTER/Desktop/emu430proje/Football teams.csv"</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>     Team            Tournament            Goals          Shots.pg    
+ Length:98          Length:98          Min.   :20.00   Min.   : 7.10  
+ Class :character   Class :character   1st Qu.:40.25   1st Qu.:10.32  
+ Mode  :character   Mode  :character   Median :50.00   Median :11.45  
+                                       Mean   :52.18   Mean   :11.85  
+                                       3rd Qu.:61.75   3rd Qu.:13.35  
+                                       Max.   :99.00   Max.   :17.10  
+  yellow_cards     red_cards       Possession.        Pass.      
+ Min.   : 40.0   Min.   : 0.000   Min.   :38.50   Min.   :66.50  
+ 1st Qu.: 60.0   1st Qu.: 2.000   1st Qu.:46.23   1st Qu.:78.03  
+ Median : 67.5   Median : 3.000   Median :49.75   Median :80.80  
+ Mean   : 69.7   Mean   : 3.337   Mean   :50.00   Mean   :80.44  
+ 3rd Qu.: 80.0   3rd Qu.: 4.750   3rd Qu.:52.85   3rd Qu.:83.45  
+ Max.   :117.0   Max.   :10.000   Max.   :62.40   Max.   :89.70  
+   AerialsWon        Rating     
+ Min.   : 9.50   Min.   :6.410  
+ 1st Qu.:14.03   1st Qu.:6.540  
+ Median :16.10   Median :6.630  
+ Mean   :16.01   Mean   :6.646  
+ 3rd Qu.:17.85   3rd Qu.:6.730  
+ Max.   :26.80   Max.   :7.010  </code></pre>
+</div>
+</div>
 <p><strong>Summary</strong></p>
-<p>[provide a biref summary of your project]</p>
+<p>Our dataset’s name is “Football teams | Rankings | Stats” taken from <a href="https://www.kaggle.com/datasets/varpit94/football-teams-rankings-stats/">Kaggle</a> This dataset contains 10 columns and 98 observations. 2 of our variables are characteristic, 5 of them are continuous and the rest of the variables are discrete. The purpose of this project is to observe the relationship between variables and find the variables that have a big impact on the rating of the teams.</p>
 
 
 
