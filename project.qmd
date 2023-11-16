@@ -7,7 +7,7 @@ sidebar: "false "
 
 ## Group Members Alperen Gürkan - Elif Ece Uygun - Mert Canlı - Bekir Gök
 
-Below, you'll find a brief summary of our project. To access a detailed project description, please go to [Project](https://emu-hacettepe-analytics.github.io/emu430-fall2023-mertcanli01/project.html)
+Below, you'll find a brief summary of our project. To access a detailed project description, please go to [Project](https://alperengurkan.github.io/group_icaRdi/project.html)
 
 ```{r}
 data <- read.csv("C:/Users/MONSTER/Desktop/emu430proje/Football teams.csv")
