@@ -14,9 +14,15 @@ x=1 + 1
 print(x)
 ```
 
-My first assignment has two parts.
+My first assignment has three parts.
 
 ## Section A
+
+### [R Conference,Yes, you can use Python with RStudio Team! Gagandeep Singh & Xu Fei](https://www.rstudio.com/conference/2022/talks/develop-deploy-python-rstudio/)
+
+#### Summary:
+   The video aims to exemplify the integration of Python within RStudio for data analysis. The dataset utilized in the demonstration is sourced from a bikeshare application, showcasing information about bike stations and the available bikes at each station. Previous analysis had been conducted using R, but the objective is to extend the capability to predict future bike availability using live data feeds. The video's programmers performed the analysis in a Jupyter Notebook, importing the bike dataset as a dataframe. To facilitate broader application usage, they migrated the model to RStudio Connect, enabling deployment of the Jupyter Notebook and scheduling functionalities. In essence, the video illustrates the seamless utilization of Python tools within the RStudio environment.
+
 
 ## Section B
 

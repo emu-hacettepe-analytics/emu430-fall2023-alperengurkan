@@ -17,8 +17,6 @@ sidebar: false
 
 1.  Firm Oyak-Renault Fabrikaları A.Ş. , Summer Intern, year 2023
 
-2.  Firm bbb, position yyy, year yyy
-
 # Projects
 
 # Skills
@@ -38,3 +36,8 @@ SolidWorks............Advance
 MS Office...............Intermediate
 
 # Hobbies
+F1, Soccer
+
+## [CV](https://onedrive.live.com/?cid=99AEFFA19C492444&id=99AEFFA19C492444%21s09bb675b959848d48e0e98ad46292761&parId=root&o=OneUp)
+
+
